@@ -1,0 +1,44 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"murcoins_ico.sol": "MurcoinsICO"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"murcoins_ico.sol": {
+			"keccak256": "0xabe62cf384370862e9b5dbb49cf26aaf1ee8e489f9d8cb35946dc261f1ed6fa7",
+			"urls": [
+				"bzz-raw://3aa3872e198c54dff8dc35a52480e36ff606cdc7ace0640e27472ec67f498637",
+				"dweb:/ipfs/QmTcbkbQJSsvTa3uktgn1J7oV78bXmjgAizX8CEgZkNMJr"
+			]
+		}
+	},
+	"version": 1
+}
