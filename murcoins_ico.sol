@@ -33,7 +33,7 @@ contract murcoin_ico {
         return equity_usd[investor];
     }
 
-    // Buying Murcoins
+    // Buying Murcoins - testing
     function buy_murcoins(address investor, uint usd_invested) external
     can_buy_murcoins(usd_invested) {
         uint murcoins_bought = usd_invested * usd_to_murcoins;
