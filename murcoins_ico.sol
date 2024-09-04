@@ -43,11 +43,9 @@ contract murcoin_ico {
     }
 
     // Selling Murcoins
-    function sell_murcoins(address investor, uint usd_invested) external
-    can_buy_murcoins(usd_invested) {
-        uint murcoins_bought = usd_invested * usd_to_murcoins;
-        equity_murcoins[investor] += murcoins_bought;
+    function sell_murcoins(address investor, uint murcoins_sold) external {
+        equity_murcoins[investor] -= murcoins_sold;
         equity_usd[investor] = equity_murcoins[investor] / 1000;
-        total_murcoins_bought += murcoins_bought;
+        total_murcoins_bought -= murcoins_sold;
     }
 }

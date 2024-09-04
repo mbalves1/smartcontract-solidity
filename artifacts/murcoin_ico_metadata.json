@@ -83,7 +83,7 @@
 					},
 					{
 						"internalType": "uint256",
-						"name": "usd_invested",
+						"name": "murcoins_sold",
 						"type": "uint256"
 					}
 				],
@@ -147,11 +147,11 @@
 	},
 	"sources": {
 		"murcoins_ico.sol": {
-			"keccak256": "0x97968ceddd30ae19bd91f20c669ca7304b605a76b9b566bb1620c301fd48a4a6",
+			"keccak256": "0x4e2c9b4faeb8edbe395154efe58f41d792ffcb5d5a5048fee8fc6d5849f20588",
 			"license": "UNLICENSED",
 			"urls": [
-				"bzz-raw://7c86251f2d5eef855149dc7d0f405748cd4f1e43bfe3f62468ad670261ffcf29",
-				"dweb:/ipfs/QmSsC7J9t3M7CD7WVb2yeZGVt6vqy1SdL5EmyXgjM9Hshm"
+				"bzz-raw://57e9b93836656970a70fddfdec1eae6e543cfa719b739cdb25d207f63e28bc63",
+				"dweb:/ipfs/QmeXJJ6uhErZbhdknL1qpra1TtkCSXcvu3maAPnyruZJW8"
 			]
 		}
 	},
