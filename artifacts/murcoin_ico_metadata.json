@@ -6,6 +6,44 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "investor",
+						"type": "address"
+					}
+				],
+				"name": "equity_in_murcoins",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "investor",
+						"type": "address"
+					}
+				],
+				"name": "equity_in_usd",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "max_murcoins",
 				"outputs": [
@@ -73,10 +111,11 @@
 	},
 	"sources": {
 		"murcoins_ico.sol": {
-			"keccak256": "0x0345448aa74df8dba65a69ececa30dcd3599eba7ed0eac3c52e7b85fdfd5d44f",
+			"keccak256": "0xd297cebb43483c0813f1e44793ec48f5baea2334adb4c1e11b2fd7cd7c215e8b",
+			"license": "UNLICENSED",
 			"urls": [
-				"bzz-raw://f865def1f024e3ab99723351a511f37e5dad4304b8acabf1d63a492a49231177",
-				"dweb:/ipfs/QmbToEg5TXNJyibHsdf6Dcc9XeAyqQpAZrVVzPrFV1FGMP"
+				"bzz-raw://b090d9183e1ce578cd73689235b3c5ab1ca305c399f118253d75806943fd38f9",
+				"dweb:/ipfs/QmYhnMaeWvSTXEMCaMpAdUsE65QomEHsxPv9hqjxeoiSyx"
 			]
 		}
 	},
