@@ -34,5 +34,11 @@ contract murcoin_ico {
     }
 
     // Buying Murcoins
-    
+    function buy_murcoins(address investor, uint usd_invested) external
+    can_buy_murcoins(usd_invested) {
+        uint murcoins_bought = usd_invested * usd_to_murcoins;
+        equity_murcoins[investor] += murcoins_bought;
+        equity_usd[investor] = equity_murcoins[investor] / 1000;
+        total_murcoins_bought += murcoins_bought;
+    }
 }

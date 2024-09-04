@@ -11,6 +11,24 @@
 						"internalType": "address",
 						"name": "investor",
 						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "usd_invested",
+						"type": "uint256"
+					}
+				],
+				"name": "buy_murcoins",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "investor",
+						"type": "address"
 					}
 				],
 				"name": "equity_in_murcoins",
@@ -111,11 +129,11 @@
 	},
 	"sources": {
 		"murcoins_ico.sol": {
-			"keccak256": "0xd297cebb43483c0813f1e44793ec48f5baea2334adb4c1e11b2fd7cd7c215e8b",
+			"keccak256": "0xf90b94a00722f1e83d7094413014b06b03a7bbb1d879e3dcd614fe31461aacb2",
 			"license": "UNLICENSED",
 			"urls": [
-				"bzz-raw://b090d9183e1ce578cd73689235b3c5ab1ca305c399f118253d75806943fd38f9",
-				"dweb:/ipfs/QmYhnMaeWvSTXEMCaMpAdUsE65QomEHsxPv9hqjxeoiSyx"
+				"bzz-raw://d4034e38b8d97bd23f63a806ed68a1f15cb53c6ef4b0bf75d69110dde6898b75",
+				"dweb:/ipfs/QmWGBCLq79jXsyuAGXBVwbsBu1suBmaUK5RFH7pGmLary3"
 			]
 		}
 	},
